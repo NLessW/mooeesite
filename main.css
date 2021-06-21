@@ -1,0 +1,72 @@
+/**reset**/
+* {
+    padding: 0;
+    margin: 0;
+    background: #000000
+}   
+/**nav css**/
+ul li {
+    list-style: none;
+    float: left;
+}
+
+/**wrap**/
+#wrap {
+    width: 1280px;
+    margin: 0 auto;
+
+}
+
+/**header**/
+#header {
+    overflow: hidden;
+}
+/**h1**/
+h1 {
+    float: left;
+    color: white;
+
+}
+/**카테고리**/
+.nav {
+    float: left;
+    margin-left: 200px;
+    color: white;
+}
+.nav li {
+    height: 63px;
+    line-height: 63px;
+    padding: 0 83px;
+    font-size: 1.2em;
+    font-weight: bold;
+    background: #2E2E2E
+}
+.nav li:hover {
+    background: white;
+    color: #000000
+}
+.nav li:visited {
+    text-decoration: none;
+    color: #000000
+}
+a {
+    float: left
+}
+a:link {
+    color:white;
+}
+a:visited {
+    color: white;
+}
+
+
+.id input, .pass input {
+    width: 15%;
+    height: 1px;
+    padding: 18px 12px;
+    border: 1px solid white;;
+    font-size: 12px;
+    font-weight: 700;
+    outline: 0;
+    transition: border-color .15s linear;
+}
