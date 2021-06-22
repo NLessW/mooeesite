@@ -4,17 +4,11 @@
     margin: 0;
     background: #000000
 }   
-/**nav css**/
-ul li {
-    list-style: none;
-    float: left;
-}
 
 /**wrap**/
 #wrap {
     width: 1280px;
     margin: 0 auto;
-
 }
 
 /**header**/
@@ -30,10 +24,12 @@ h1 {
 /**카테고리**/
 .nav {
     float: left;
-    margin-left: 200px;
+    margin-left: 194.5px;
     color: white;
+    list-style: none;
 }
 .nav li {
+    float: left;
     height: 63px;
     line-height: 63px;
     padding: 0 83px;
@@ -59,9 +55,17 @@ a:visited {
     color: white;
 }
 
+#imgad {
+    color: white;
+}
+
+#contents {
+    float: left;
+}
+
 
 .id input, .pass input {
-    width: 15%;
+    width: 150px;
     height: 1px;
     padding: 18px 12px;
     border: 1px solid white;;
@@ -69,4 +73,22 @@ a:visited {
     font-weight: 700;
     outline: 0;
     transition: border-color .15s linear;
+}
+
+.btLogin button {
+    width: 200px;
+    height: 40px;
+    font-size: 15px;
+    color: white;
+    background-color: #2E2E2E;
+    transition: all .15s linear;
+}
+
+.btnSignUp button {
+    width: 200px;
+    height: 40px;
+    font-size: 15px;
+    color: white;
+    background-color: #2E2E2E;
+    transition: all .15s linear;
 }
