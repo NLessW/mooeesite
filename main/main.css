@@ -82,6 +82,7 @@ a:visited {
     color: white;
     background-color: #2E2E2E;
     transition: all .15s linear;
+    margin-bottom: 20px;
 }
 
 .btnSignUp button {
@@ -92,3 +93,20 @@ a:visited {
     background-color: #2E2E2E;
     transition: all .15s linear;
 }
+
+.lo {
+    float: left;
+    padding-top: 20px;
+}
+
+p{
+    float: right;
+    color: white;
+}
+
+.ad {
+    float: left;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
