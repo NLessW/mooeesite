@@ -24,7 +24,7 @@ h1 {
 /**카테고리**/
 .nav {
     float: left;
-    margin-left: 194.5px;
+    margin-left: 100px;
     color: white;
     list-style: none;
 }
@@ -32,7 +32,7 @@ h1 {
     float: left;
     height: 63px;
     line-height: 63px;
-    padding: 0 83px;
+    padding: 0 106px;
     font-size: 1.2em;
     font-weight: bold;
     background: #2E2E2E
