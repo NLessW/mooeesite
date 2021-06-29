@@ -24,7 +24,7 @@ h1 {
 }
 /**카테고리**/
 .nav {
-    float: left;
+    float: right;
     margin-left: 100px;
     color: white;
     list-style: none;
