@@ -63,3 +63,29 @@ a:visited {
 #contents {
     float: left;
 }
+
+h2{
+    width: 400px;
+    height: 50px;
+    background: #2E2E2E;
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.maintxt {
+    width: 1280px;
+    height: 300px;
+    background: rgb(61, 59, 59);
+    color: white;
+    float: left;
+    text-align: start;
+}
+.maintxt span{
+    font-size: 30px;
+    background: rgb(61, 59, 59);
+}
+
+.maintxt p{
+    background: rgb(61, 59, 59);
+}
