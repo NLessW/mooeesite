@@ -24,7 +24,7 @@ h1 {
 }
 /**카테고리**/
 .nav {
-    float: right;
+    float: left;
     margin-left: 100px;
     color: white;
     list-style: none;
@@ -88,4 +88,19 @@ h2{
 
 .maintxt p{
     background: rgb(61, 59, 59);
+}
+
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+    color: white;
+    background: #2e2e2e;
+}
+
+.footer p{
+background: #2E2E2E;
 }
