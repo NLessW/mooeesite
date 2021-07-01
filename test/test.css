@@ -63,3 +63,18 @@ a:visited {
 #contents {
     float: left;
 }
+
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+    color: white;
+    background: #2e2e2e;
+}
+
+.footer p{
+background: #2E2E2E;
+}
