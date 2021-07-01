@@ -1,0 +1,80 @@
+/**reset**/
+* {
+    padding: 0;
+    margin: 0;
+    background: #000000
+}   
+
+/**wrap**/
+#wrap {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+/**header**/
+#header {
+    overflow: hidden;
+}
+
+/**h1**/
+h1 {
+    float: left;
+    color: white;
+
+}
+/**카테고리**/
+.nav {
+    float: left;
+    margin-left: 100px;
+    color: white;
+    list-style: none;
+}
+.nav li {
+    float: left;
+    height: 63px;
+    line-height: 63px;
+    padding: 0 106px;
+    font-size: 1.2em;
+    font-weight: bold;
+    background: #2E2E2E
+}
+.nav li:hover {
+    background: white;
+    color: #000000
+}
+.nav li:visited {
+    text-decoration: none;
+    color: #000000
+}
+a {
+    float: left
+}
+a:link {
+    color:white;
+}
+a:visited {
+    color: white;
+}
+
+#imgad {
+    color: white;
+}
+
+#contents {
+    float: left;
+}
+
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+    color: white;
+    background: #2e2e2e;
+}
+
+.footer p{
+background: #2E2E2E;
+}
