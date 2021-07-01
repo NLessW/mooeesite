@@ -23,7 +23,7 @@ h1 {
 }
 /**카테고리**/
 .nav {
-    float: right;
+    float: left;
     margin-left: 100px;
     color: white;
     list-style: none;
@@ -99,14 +99,44 @@ a:visited {
     padding-top: 20px;
 }
 
-p{
-    float: right;
-    color: white;
-}
 
 .ad {
     float: left;
     margin-left: 20px;
     padding-top: 20px;
+}
+
+.footer {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        padding: 15px 0;
+        text-align: center;
+        color: white;
+        background: #2e2e2e;
+}
+
+.footer p{
+    background: #2E2E2E;
+}
+
+.join button{
+    width: 500px;
+    height: 100px;
+    background: #2E2E2E;
+    color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-size: 40px;
+    text-align: center;
+    margin-left: 390px;
+}
+
+.join button:hover{
+    color: skyblue;
+    
 }
 
